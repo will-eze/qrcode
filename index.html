@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>QR Code Generator</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+		<link rel="stylesheet" href="styles.css">	
+		<script src="scripts.js"></script>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+		<div class="app">
+			<div class="app_head">
+				<h1>QR Code Generator</h1>
+			</div>
+			<div class="app_inputs">
+				<input id="text" type="text" placeholder="Enter URL" onkeypress="clickPress(event)"/> 
+				<button id="btn" type="button" onclick="generateBarCode();">Generate Now!</button>					
+			</div>			
+			<div class="app_img">
+				<img id='barcode' src="" alt="QR Code" />
+			</div>
+	
+			<footer>
+				<div>
+					Made for the use of DLBC Plaistow Region
+				</div>
+				<div>
+					Owner: William Eze (willz.eze2023@gmail.com)
+				</div>
+			</footer>
+		</div>
+    </body>
+</html>
