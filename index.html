@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Testing QR code</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="styles.css">
+		<script src="scripts.js"></script>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+		<div class="app">
+			<div class="app_head">
+				<h1>QR Code Generator</h1>
+			</div>
+			<div class="app_inputs">
+				<input id="text" type="text" placeholder="Enter URL" onkeypress="clickPress(event)"/> 
+				<button id="btn" type="button" onclick="generateBarCode();">Generate Now!</button>					
+			</div>			
+			<div class="app_img">
+				<img id='barcode' src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=100x100" alt="QR Code" />
+			</div>
+	
+			<footer>
+				<div>
+					Made for the use of DLBC Plaistow Region
+				</div>
+				<div>
+					Owner: William Eze (willz.eze2023@gmail.com)
+				</div>
+			</footer>
+		</div>
+    </body>
+</html>

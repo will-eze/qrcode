@@ -1,0 +1,66 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #C9E3FF;
+    padding-top: 30px;
+}
+
+.app_head{
+    display: block;
+    margin: 0 auto; 
+    background-color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 25px;
+    padding: 5px;
+    width: 80%;
+}
+
+.app_img{
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+#barcode{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.app_inputs{
+    width: 40%;
+    margin: 50px auto;
+}
+
+#text{
+    display: block;
+    margin : 0 auto;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-size: 1.3em;
+    width: 60%;
+}
+
+#text::placeholder{
+    text-align: center;
+}
+
+#btn{
+    display: block;
+    margin: 8px auto;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    font-size: 1.1em;
+}
